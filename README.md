@@ -1,4 +1,4 @@
-# Game--AI
+# GameAI
 Made an AI that solves game "Century: The spice road"
 
 The AI-controlled player is a spice trader, and I created a GOAP planner that allows the character to trade spices. The main goal is to fill a caravan with 2 units of each of 7 spices: Turmeric, Saffron, Cardamom, Cinnamon, Cloves, Pepper and Sumac. In order to do this the player-agent needs to visit traders who each trade one specific spice for another, in various quantities, and deal with a roving thief. The thief may steal up to 2 spices from the trader's inventory or the caravan, and when not stealing, wanders randomly.
