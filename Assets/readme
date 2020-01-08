@@ -1,0 +1,31 @@
+
+The scene to play is called 'SampleScene' in the Assets/Scenes/ folder. 
+
+When I first started my Goap Planner, I did not really have the thief in mind.
+
+I thought that the 'smartest' player would perform as many trading actions as it could before going back to the caravan, and so therefore my heuristic motivates the player to do just this. 
+
+Of course with the thief in the game, this is not an optimal heuristic. (without the thief though, it is a very fast plan!)
+
+So therefore when my thief has the opportunity to steal every 5s, this does not allow the player to reach the goal state in any reasonable time. Therefore I increased this waiting time to 20s, so you can really see the progress of the planner. 
+
+You can change this back to 5s for grading if it is easier. The public variable to change is in the Thief Game Object under the Hierarchy, the variable is called 'waitBeforeNextSteal'
+
+
+The world state is represented with two arrays, one which holds the current inventory, and one which holds the current caravan. 
+
+Goal State is for each array index of caravan to be 2.
+
+I defined the following actions:
+Trade with trader 1
+Trade with trader 2
+Trade with trader 3
+Trade with trader 4
+Trade with trader 5
+Trade with trader 6
+Trade with trader 7
+Trade with trader 8
+drop spices at caravan
+Pick spices up from caravan
+
+

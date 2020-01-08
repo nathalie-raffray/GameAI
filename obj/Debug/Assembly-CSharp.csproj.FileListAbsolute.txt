@@ -1,0 +1,2 @@
+C:\Users\natha\Documents\Unity\CaravanAI\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\natha\Documents\Unity\CaravanAI\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
